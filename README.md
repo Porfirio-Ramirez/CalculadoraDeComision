@@ -1,18 +1,26 @@
-## Getting Started
+📋 Descripción
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Programa que calcula la comisión de un vendedor ingresando el monto vendido y sus años en la empresa, aplicando un porcentaje según el rango de ventas y un bono de $200 si supera los 5 años de antigüedad.
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
+📊 Reglas de comisión
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Monto VendidoComisiónMenos de $1,0005%Entre $1,000 y $4,9998%Entre $5,000 y $9,99912%$10,000 o más15%
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Si el monto es $10,000 o más y el vendedor tiene más de 5 años en la empresa, se agrega un bono adicional de $200.
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+
+🧠 Conceptos aplicados
+
+
+Condicionales if / else if / else
+Condicional anidado para el bono
+Uso de double para valores monetarios
+Uso de constante final para el bono
+Lectura de datos con Scanner
+
+
+
